@@ -1,8 +1,11 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
 
-var mainNavs = [{ text: 'Pages', route: { name: 'pages' } },
-{ text: 'About', route: { name: 'about' } }]
+var mainNavs = [
+  { text: 'Pages', route: { name: 'pages' } },
+  { text: 'Idle', route: { name: 'idle' } },
+  // { text: 'Storage2', route: { name: 'storage2' } },
+  { text: 'About', route: { name: 'about' } }]
 </script>
 
 <template>
